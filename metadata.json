@@ -1,0 +1,6 @@
+{
+  "name": "CardioPulse AI",
+  "description": "AI-powered virtual heart monitoring system. Analyze ECG waveform images or facial video feeds for heart health indicators, generating detailed reports and medical insights using Gemini AI.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}
