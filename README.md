@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🫀 CardioPulse AI
+CardioPulse AI is an AI-powered virtual heart monitoring system that analyzes ECG images and facial video input to generate heart health insights. The system leverages Google Gemini AI to provide intelligent, fast, and non-invasive health analysis.
 
-# Run and deploy your AI Studio app
+Features:
+ ECG Image Analysis
+ Camera-based Facial Monitoring
+ AI-powered Health Insights (Gemini API)
+ Data Visualization (Charts)
+ Automated Report Generation (PDF)
+ User-friendly Web Interface
 
-This contains everything you need to run your app locally.
+Technologies Used
+ React.js (Frontend)
+ Vite (Development Server)
+ Tailwind CSS (Styling)
+ Node.js & Express.js (Backend)
+ Google Gemini AI API
+ jsPDF & html2canvas
 
-View your app in AI Studio: https://ai.studio/apps/fefef175-ccec-4509-8500-b43b7c95a054
+How It Works
+ User provides input (ECG image or camera feed)
+ Data is preprocessed for analysis
+ Input is sent to Gemini AI
+ AI analyzes patterns and generates insights
+ Results are displayed and report is generated
 
-## Run Locally
+ Installation & Setup
+  Install Depenedencies - 'npm install'
+  Add API Key
+  Create a .env.local file and add
+  GEMINI_API_KEY=your_api_key_here
+  Run the project
+  npm run dev
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Future Enhancements
+ Integration with wearable devices
+ Real-time monitoring system
+ Mobile application development
+ Improved accuracy using medical datasets
